@@ -1,9 +1,9 @@
 board [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  counter = 1
+  turn_num = 1
   board.each do |space|
-    if space != " "
-      counter += 1
+    if (space == "X")||(space == "O")
+      turn_num += 1
     end
       
