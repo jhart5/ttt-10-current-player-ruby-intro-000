@@ -7,4 +7,5 @@ def turn_count(board)
       turn_num += 1
     end
   end
+  return turn_num
 end
